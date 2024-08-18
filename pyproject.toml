@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "real_estate_la"
+version = "0.0.1"
+description = "Real estate price analysis \u0026 scrapper for some Russian regions"
+authors = [
+  "edazizovv",
+]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "real_estate_la"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
